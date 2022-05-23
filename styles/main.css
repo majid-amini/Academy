@@ -1,0 +1,161 @@
+/* main {
+
+} */
+.dashboard__title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+
+}
+.dashboard__right {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+}
+.dashboard__right > i{
+    padding: 1.5rem;
+    background-color: antiquewhite;
+    border-radius: 1rem;
+}
+.dashboard__right .search__total {
+    padding: 1.2rem 2.4rem;
+    border-radius: 1rem;
+    background-color: var(--primaryTint-color);
+}
+main input{
+    border: none;
+    outline: none;
+    background: none;
+}
+
+
+
+
+.New__courses {
+    margin-top: 2rem;
+}
+.new__courses__total {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 100%;
+    padding: 2rem 0;
+    gap: 1rem;
+}
+
+.new__courses__card {  
+    
+    padding: 2rem 1rem;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    
+}
+.geography {
+    background-color: var(--lightOrange-color);
+}
+.geography > img:first-child {
+    background-color: var(--darkOrange-color);
+}
+.javascript {
+    background-color: lightyellow;
+}
+.javascript >img:first-child {
+    background-color: yellow;
+}
+.photography {
+    background-color: var(--lightBlue-color);
+}
+.new__courses__card > img {
+    width: 100%;
+    height: 10rem;
+    /* padding: 1rem; */
+    object-fit: cover;
+    border-radius: 1rem;
+    /* background-color: azure; */
+}
+.new__courses__bottom {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.geography i{
+    padding: 1rem;
+    background-color: var(--darkOrange-color);
+    color: var(--dark-color);
+    border-radius: 0.5rem;
+}
+.new__courses__images {
+    display: flex;
+    align-items: center;
+}
+.new__courses__images img {
+    width: 2.5rem;
+    border-radius: 50%;
+}
+
+
+
+
+
+.my__courses--title {
+    display: flex;
+    justify-content: flex-start;
+    
+}
+.my__courses--total {
+    display: grid;
+    grid-template-columns: 3fr 1fr 1fr 1fr;
+    align-items: flex-start;
+    margin-top: 1rem;
+}
+/* .my__courses--total > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 1.2rem 0;
+    gap: 2rem;
+    
+} */
+.my__courses--title {
+    color: var(--gray-color);
+    
+}
+.col {
+    display: flex;
+    flex-direction: column;
+}
+.course--name {
+    
+    gap: 2rem;
+}
+.course--name--items {
+    display: flex;
+    justify-content: flex-start;
+    gap: 1rem;
+}
+.course--name--items i {
+    color: blue;
+    padding: 1rem;
+    font-size: 2rem;
+    background-color: aqua;
+    border-radius: 1rem;
+    margin-right: 1.2rem;
+}
+.course--name--items:first-child i{
+    color: var(--primary-color);
+    background-color: var(--lightPurple-color);
+}
+.course--date, .course--rate, .course--level {
+    height: 33rem;
+    justify-content: flex-start;
+    /* gap: 2rem; */
+}
+
+.col > span {
+    font-size: 1.5rem;
+    padding: 2rem 0;
+}

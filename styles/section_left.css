@@ -1,0 +1,96 @@
+.left__total {
+    padding: 0 2rem;
+    
+}
+.menu__title {
+    display: flex;
+    align-items: center;
+}
+.menu__title i{
+    font-size: 3rem;
+    transform: rotate(45deg);
+}
+.menu__title .square--left {
+    color: var(--darkPurple-color);
+}
+.menu__title .square--right {
+    color: var(--lightPurple-color);
+    position: relative;
+    margin-left: -1.5rem;
+}
+.menu__title h3 {
+    margin-left: 1rem;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+
+
+
+.menu__items {
+    padding: 2rem 0;
+}
+.menu__items--ul {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+.menu__items .menu__items--ul .menu__items--list {
+    padding: 1rem 0;
+    transition: background 0.3s ease-in-out;
+    border-radius: 1rem;
+    display: flex;
+    align-items: center;
+}
+.menu__items--list:first-child {
+    background-color: var(--lightPurple-color);
+}
+.menu__items--list:hover {
+    background-color: var(--lightPurple-color);
+}
+.menu__items--list a, i {
+    padding: 0.5rem;
+}
+.menu__items--list i {
+    margin-left: 0.5rem;
+    color: var(--gray-color);
+}
+
+
+
+.image__container {
+    margin-top: 2rem;
+    background-color: var(--lightPurple-color);
+    padding: 2rem;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+.image__container h4 {
+    font-weight: 400;
+    color: var(--dark-color);
+    font-size: 1.5rem;
+}
+.image__container span {
+    font-size: 1.3rem;
+    text-align: center;
+}
+.image__container img {
+    width: 100%;
+    border-radius: 1rem;
+}
+.image__container button {
+    padding: 1.2rem 2.4rem;
+    background-color: var(--darkPurple-color);
+    border: none;
+    outline: none;
+    border-radius: 1rem;
+    margin-top: 2rem;
+}
+.image__container a {
+    
+    color: var(--light-color);
+}
+
