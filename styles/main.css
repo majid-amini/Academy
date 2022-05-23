@@ -79,6 +79,11 @@ main input{
 .new__courses__card h4 {
     font-size: 1.3rem;
 }
+.new__courses__card > span {
+    font-weight: 300;
+    font-size: 1.2rem;
+    font-style: italic;
+}
 .new__courses__bottom {
     width: 100%;
     display: flex;
