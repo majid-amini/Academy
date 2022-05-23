@@ -51,7 +51,7 @@ main input{
     flex-direction: column;
     justify-content: space-between;
     align-items: flex-start;
-    
+    gap: 1rem;
 }
 .geography {
     background-color: var(--lightOrange-color);
@@ -76,16 +76,27 @@ main input{
     border-radius: 1rem;
     /* background-color: azure; */
 }
+.new__courses__card h4 {
+    font-size: 1.3rem;
+}
 .new__courses__bottom {
     width: 100%;
     display: flex;
     justify-content: space-between;
 }
-.geography i{
+.geography i, .javascript i,.photography i{
     padding: 1rem;
-    background-color: var(--darkOrange-color);
     color: var(--dark-color);
     border-radius: 0.5rem;
+}
+.geography i {
+    background-color: var(--darkOrange-color);
+}
+.javascript i {
+    background-color: yellow;
+}
+.photography i{
+    background-color: var(--darkBlue-color);
 }
 .new__courses__images {
     display: flex;
