@@ -22,6 +22,7 @@ aside {
     align-items: center;
     gap: 1rem;
 }
+
 .profile__img img {
     text-align: center;
     width: 10rem;
@@ -36,4 +37,30 @@ aside {
 }
 .profile__img > span {
     color: var(--gray-color);
+}
+
+
+
+
+
+
+
+
+.progress__total {
+    margin-top: 2rem;
+    width: 100%;
+}
+.progress__total .progress__box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.progress__box .progress__left {
+    display: flex;
+    gap: 1rem;
+    font-size: 1.5rem;
+}
+.progress__left__item {
+    display: flex;
+    flex-direction: column;
 }
