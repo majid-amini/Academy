@@ -111,7 +111,17 @@ main input{
     width: 2.5rem;
     border-radius: 50%;
 }
-
+.new--courses--view {
+    width: 7rem;
+    grid-column: 3/-1;
+    margin-top: 1rem;
+    cursor: pointer;
+    justify-self: flex-end;
+    transition: all 0.3s ease-in-out;
+}
+.new--courses--view:hover {
+    color: var(--darkPurple-color);
+}
 
 
 
