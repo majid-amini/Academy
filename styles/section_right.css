@@ -1,11 +1,7 @@
 aside {
-<<<<<<< HEAD
     width: 35rem;
     margin-left: 2rem;
     padding: 0 1rem;
-=======
-    margin-left: 2rem;
->>>>>>> 6c2c555b18a30c28e0950682585d7187ce4d9a75
 }
 .profile {
     margin-top: 1rem;
@@ -17,11 +13,7 @@ aside {
     height: 3rem;
 }
 .profile__title i{
-<<<<<<< HEAD
     box-shadow: 0 0 1rem rgba(0,0,0,0.25);
-=======
-    background-color: bisque;
->>>>>>> 6c2c555b18a30c28e0950682585d7187ce4d9a75
     padding: 1.2rem;
     border-radius: 1rem;
 }
