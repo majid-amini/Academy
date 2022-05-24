@@ -1,6 +1,6 @@
-/* main {
-
-} */
+main {
+    padding: 0 1rem;
+}
 .dashboard__title {
     display: flex;
     justify-content: space-between;
@@ -135,19 +135,12 @@ main input{
 }
 .my__courses--total {
     display: grid;
-    grid-template-columns: 3fr 1fr 1fr 1fr;
+    grid-template-columns: 4fr 1fr 1fr 1fr;
     align-items: flex-start;
     margin-top: 1rem;
-}
-/* .my__courses--total > div {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: flex-start;
-    padding: 1.2rem 0;
     gap: 2rem;
-    
-} */
+}
+
 .my__courses--title {
     color: var(--gray-color);
     
@@ -157,33 +150,66 @@ main input{
     flex-direction: column;
 }
 .course--name {
-    
     gap: 2rem;
 }
 .course--name--items {
     display: flex;
     justify-content: flex-start;
+    align-items: center;
     gap: 1rem;
+}
+.left__class--names {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+.left__class--names h4 {
+    font-size: 1.4rem;
+}
+.left__class--names span {
+    font-size: 1.2rem;
 }
 .course--name--items i {
     color: blue;
     padding: 1rem;
-    font-size: 2rem;
+    font-size: 2.2rem;
     background-color: aqua;
     border-radius: 1rem;
     margin-right: 1.2rem;
+    width: 5rem;
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
-.course--name--items:first-child i{
-    color: var(--primary-color);
+
+.design i{
+    color: var(--darkPurple-color);
     background-color: var(--lightPurple-color);
+}
+.developement i {
+    color: var(--darkBlue-color);
+    background-color: var(--lightBlue-color);
+}
+.data i{
+    color: var(--darkPink-color);
+    background-color: var(--lightPink-color);
+}
+.html i {
+    color: var(--darkPurple-color);
+    background-color: var(--lightPurple-color);
+}
+.js i{
+    color: var(--darkOrange-color);
+    background-color: var(--lightOrange-color);
 }
 .course--date, .course--rate, .course--level {
     height: 33rem;
     justify-content: flex-start;
-    /* gap: 2rem; */
+    gap: 1.2rem;
 }
 
 .col > span {
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     padding: 2rem 0;
 }
