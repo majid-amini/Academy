@@ -41,6 +41,7 @@
     border-radius: 1rem;
     display: flex;
     align-items: center;
+    cursor: pointer;
 }
 .menu__items--list:first-child {
     background-color: var(--lightPurple-color);
