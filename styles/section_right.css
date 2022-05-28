@@ -22,6 +22,7 @@ aside {
     justify-content: center;
     align-items: center;
     gap: 1rem;
+    
 }
 
 .profile__img img {
@@ -29,6 +30,10 @@ aside {
     width: 10rem;
     border-radius: 50%;
     margin-top: 2rem;
+    transition: all 0.3s ease-in-out;
+}
+.profile__img img:hover {
+    transform: scale(1.05);
 }
 .profile__img i{
     font-size: 1.2rem;
