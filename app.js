@@ -15,3 +15,17 @@ menu_items.forEach(item => {
         
     });
 });
+
+
+//Homework-progress-function
+const progressBox = document.querySelectorAll(".progress__box");
+
+progressBox.forEach(elem => {
+    elem.addEventListener('click', () => {
+        for (let i = 0; i < progressBox.length; i++) {
+            progressBox[i].classList.remove("active");
+        }
+        elem.classList.add("active");
+    })
+    
+})
