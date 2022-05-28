@@ -53,12 +53,13 @@
     align-items: center;
     cursor: pointer;
 }
-.menu__items--list:first-child {
-    background-color: var(--lightPurple-color);
-}
+
 .menu__items--list:hover {
     background-color: var(--lightPurple-color);
 }
+.active_item {
+    background-color: var(--lightPurple-color);
+} 
 .menu__items--list a, i {
     padding: 0.5rem;
 }
