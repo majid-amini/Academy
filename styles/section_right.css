@@ -3,7 +3,11 @@ aside {
     padding: 0 1rem;
 }
 .profile {
-    margin-top: 1rem;
+    /* margin-top: 1rem; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 2rem;
 }
 .profile__title {
     display: flex;
@@ -48,7 +52,9 @@ aside {
 
 
 
-
+.demo-picked {
+    margin-top: 1rem;
+}
 
 
 
