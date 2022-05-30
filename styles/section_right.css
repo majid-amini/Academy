@@ -1,6 +1,7 @@
 aside {
     width: 35rem;
     padding: 0 1rem;
+    gap: 1rem;
 }
 .profile {
     /* margin-top: 1rem; */
@@ -56,14 +57,19 @@ aside {
     margin-top: 1rem;
 }
 
-
+.date__picker__total {
+    margin-top: 1.5rem;
+}
 
 .progress__total {
+    width: 100%;
+    max-height: 20rem;
+    overflow-y: scroll;
     display: flex;
     flex-direction: column;
     gap: 2rem;
     margin-top: 2rem;
-    width: 100%;
+    padding: 0 2rem;
 }
 .progress__box {
     display: flex;

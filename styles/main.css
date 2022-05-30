@@ -141,7 +141,10 @@ main input{
     grid-template-columns: 4fr 1fr 1fr 1fr;
     align-items: flex-start;
     margin-top: 1rem;
+    padding: 0 2rem;
     gap: 2rem;
+    max-height: 30rem;
+    overflow-y: scroll;
 }
 
 .my__courses--title {
